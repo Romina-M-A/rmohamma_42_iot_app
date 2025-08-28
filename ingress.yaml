@@ -2,6 +2,7 @@ apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   name: wil-playground-ingress
+  annotations: kubernetes.io/ingress.class: "traefik"
   namespace: dev
 spec:
   rules:
