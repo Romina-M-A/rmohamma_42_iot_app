@@ -6,7 +6,7 @@ metadata:
 spec:
   rules:
   - host:
-    http:
+    http: localhost
       paths:
       - path: /
         pathType: Prefix
