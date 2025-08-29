@@ -10,5 +10,4 @@ spec:
     - protocol: TCP
       port: 9999
       targetPort: 8888
-      nodePort: 30080  # 30000–32767 (Kubernetes default).
   type: NodePort # to connect from outside the cluster
