@@ -4,10 +4,11 @@ metadata:
   name: wil-playground-service
   namespace: dev
 spec:
+  type: ClusterIP
   selector:
     app: wil-playground
   ports:
     - protocol: TCP
       port: 9999
       targetPort: 8888
-  type: NodePort # to connect from outside the cluster
+
